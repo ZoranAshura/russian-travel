@@ -1,0 +1,13 @@
+
+/* block photo-grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px 16px;
+  margin: 0 48px;
+}
+
+.photo-grid__item {
+  width: 100%;
+}
