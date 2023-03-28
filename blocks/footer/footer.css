@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 96px)
+  width: calc(100% - 96px);
 }
 
 @media (max-width: 768px) {
