@@ -1,0 +1,11 @@
+.header__container-links {
+  display: flex;
+  width: 76px;
+  justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+  .header__container-links {
+    width: 64px;
+  }
+}

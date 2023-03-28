@@ -1,0 +1,23 @@
+.place__website {
+  align-self: end;
+  margin: 0 0 48px 0;
+}
+
+@media (max-width: 1023px) {
+  .place__website {
+    align-self: center;
+  }
+}
+
+@media (max-width: 752px) {
+  .place__website {
+    grid-row: 2/3;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media (max-width: 352px) {
+  .place__website {
+    margin: 0 16px 32px;
+  }
+}

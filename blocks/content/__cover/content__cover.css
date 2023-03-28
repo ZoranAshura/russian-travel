@@ -1,0 +1,15 @@
+.content__cover {
+  margin: 12px auto 92px;
+}
+
+@media (width: 1023px) {
+  .content__cover {
+    margin: 17px auto 88px;
+  }
+}
+
+@media (width: 752px) {
+  .content__cover {
+    margin: 16px auto 64px;
+  }
+}

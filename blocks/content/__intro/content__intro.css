@@ -1,0 +1,21 @@
+.content__intro {
+  margin: 0 auto 92px;
+}
+
+@media (max-width: 1080px) {
+  .content__intro {
+    margin: 0 0 92px 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content__intro {
+    margin: 0 auto 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content__intro {
+    margin: 0 auto 64px;
+  }
+}
