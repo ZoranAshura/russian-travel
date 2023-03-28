@@ -26,25 +26,16 @@
   }
 }
   
-.cover__container {
-  position: absolute;
-  z-index: 3;
+.cover__overlay {
+  position: absolute  ;
+  z-index: 4;
   display: flex;
   width: 100%;
   height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.cover__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-color: rgba(0 0 0 / .3);
-  z-index: 2;
   transition: background-color .15s;
 }
 
@@ -53,7 +44,6 @@
 }
 
 .cover__title {
-  /* position: absolute; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -64,7 +54,6 @@
   z-index: 3;
   width: 560px;
   margin: 0;
-
 }
 
 @media (max-width: 569px) {
@@ -96,10 +85,11 @@
   line-height: 1.22;
   text-align: center;
   color: #FFF;
-  z-index: 3;
   width: 360px;
+  z-index: 3;
   margin: 32px 0 0 0;
 }
+
 
 @media (max-width: 569px) {
   .cover__subtitle {
