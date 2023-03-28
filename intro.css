@@ -94,6 +94,7 @@
   max-width: 690px;
   color: white;
   font-family: Inter;
+  white-space: break-lines;
 }
 
 @media (max-width: 768px) {
@@ -102,6 +103,6 @@
   }
 }
 
-.intro__list_font_weight {
+.intro__list_font-weight_normal {
   font-weight: 400;
 }
