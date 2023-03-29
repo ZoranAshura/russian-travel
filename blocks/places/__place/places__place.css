@@ -10,18 +10,12 @@
 
 @media (max-width: 1023px) {
   .places__place {
-    margin: 0 auto 73px;
-  }
-}
-
-@media (max-width: 768px) {
-  .places__place {
-    margin: 0 auto 73px;
+    margin: -4px auto 73px;
   }
 }
 
 @media (max-width: 752px) {
   .places__place {
-    margin: 0 auto 50px;
+    margin: -4px auto 50px;
   }
 }

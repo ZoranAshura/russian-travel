@@ -2,14 +2,14 @@
   margin: 12px auto 92px;
 }
 
-@media (width: 1023px) {
+@media (max-width: 1024px) {
   .content__cover {
-    margin: 17px auto 88px;
+    margin: 90px auto 88px;
   }
 }
 
-@media (width: 752px) {
+@media (max-width: 752px) {
   .content__cover {
-    margin: 16px auto 64px;
+    margin: 65px auto 58px;
   }
 }
