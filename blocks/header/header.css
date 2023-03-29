@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: flex-end;
   width: calc(100% - 96px);
-
 }
 
 @media (max-width: 768px) {
