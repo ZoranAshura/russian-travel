@@ -16,6 +16,12 @@
 
 @media (max-width: 752px) {
   .places__place {
-    margin: 60px auto 50px;
+    margin: -2px auto 50px;
+  }
+}
+
+@media (max-width: 752px) {
+  .places__place:first-of-type {
+    margin: -7px auto 50px;
   }
 }
